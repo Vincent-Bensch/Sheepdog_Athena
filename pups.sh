@@ -9,4 +9,4 @@ sudo apt install x11-xserver-utils -y
 sudo rmdir rm -r -f sheep
 sudo mkdir sheep
 
-sudo wget --no-check-certificate --content-disposition --no-cache https://raw.githubusercontent.com/Vincent-Bensch/Sheepdog/master/launch.sh -O sheep/launch.sh
+sudo wget --no-check-certificate --content-disposition --no-cache https://raw.githubusercontent.com/Vincent-Bensch/Sheepdog_Athena/master/launch.sh -O /etc/sheep/launch.sh

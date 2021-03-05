@@ -1,13 +1,13 @@
 #!/bin/bash
 
 echo " "
-echo "-------------------Starting Launcher v16-------------------"
+echo "-------------------Starting Launcher v20-------------------"
 echo " "
 
 echo "Getting current sheepdog"
 
-sudo wget -q --no-check-certificate --content-disposition --no-cache  https://raw.githubusercontent.com/Vincent-Bensch/Sheepdog/master/sheepdog.sh -O sheepdog.sh
+sudo wget -q --no-check-certificate --content-disposition --no-cache  https://raw.githubusercontent.com/Vincent-Bensch/Sheepdog_Athena/master/sheepdog.sh -O "/etc/sheep/sheepdog.sh"
 
 echo "Calling sheepdog"
 
-sudo bash sheepdog.sh
+sudo bash "/etc/sheep/sheepdog.sh"
